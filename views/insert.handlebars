@@ -1,0 +1,19 @@
+<style>
+    form {
+        box-sizing: border-box;
+        padding: 2rem;
+        border-radius: 1rem;
+        background-color: hsl(0, 0%, 100%);
+        border: 4px solid hsl(0, 0%, 90%);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+</style>
+
+<form name='form1' action='controllerForm' method='post'>
+    <input type='text' name='id' id='id' placeholder='Id:'><br> <br>
+    <input type='text' name='name' id='name' placeholder='Name:'><br> <br>
+    <input type='text' name='age' id='age' placeholder='Age:'><br> <br>
+    <input type='submit' name='btnSubmit' id='btnSubmit' value='Add'><br> <br>
+</form>
