@@ -1,0 +1,38 @@
+#Input_Nome-error {
+    font-weight: 100;
+    color: red;
+ }
+ 
+ #Input_Email-error {
+     font-weight: 100;
+     color: red;
+ }
+ 
+ #Input_Descricao-error {
+     font-weight: 100;
+     color: red;
+ }
+ 
+ #experience-dataInicio {
+     color: #212529;
+ }
+ 
+ #experience-datafim {
+     color: #212529;
+ }
+ 
+ #graduation-dataInicio {
+     color: #212529;
+ }
+ 
+ #graduation-datafim {
+     color: #212529;
+ }
+ 
+ .imgDownload {
+     position: relative;
+     display: flex;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 2%;
+ }
